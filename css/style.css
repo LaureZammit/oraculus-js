@@ -96,14 +96,16 @@ section a {
     text-decoration: none;
     color: black;
     text-transform: uppercase;
+}
+
+.prev-sign, .next-sign{
     font-size: 18px;
     display:block;
     border-top: 1px solid #BFBFBF;
     padding-top: 12px;
-
 }
 
-section a span {
+.date-prev-sign, .date-next-sign {
     display: block;
     color:#BFBFBF;
 }
@@ -138,7 +140,7 @@ article div p {
     font-size: 14px;
 }
 
-article div p span {
+#text-sign {
     color:#3F3F3F;
     font-weight: 700;
 }
